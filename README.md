@@ -1,2 +1,2 @@
-# Cron-metro
+# Cronometro
 Cronômetro em JavaScript
