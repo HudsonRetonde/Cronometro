@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(122, 24, 11, 0.693);
+  --primary-color-darker: rgb(38, 10, 3);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em; 
+  background: url('../../flash.jpg');
+}
+
+._container {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.438);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._timer {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: rgba(255, 255, 255);
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button {
+  background-color: var(--primary-color-darker);
+  color: rgba(255, 255, 255);
+  border-radius: 4px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+.relogio {
+  font-size: 3em;
+}
+
+.pausado {
+  color: red;
+}
+
