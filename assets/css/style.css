@@ -36,6 +36,10 @@ body {
   justify-content: center;
 }
 
+h1 {
+  color: yellow;
+}
+
 
 
 form input, form label, form button {
@@ -76,9 +80,30 @@ form button:hover {
 }
 .relogio {
   font-size: 3em;
+  color: yellow;
 }
 
 .pausado {
   color: red;
 }
+
+@media screen and (max-width: 480px) {
+  body {
+      width: auto;      
+  }
+}
+
+@media screen and (max-width: 414px) {
+  body {
+      width: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+      width: auto;
+  }
+}
+
+
 
