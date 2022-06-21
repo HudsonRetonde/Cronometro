@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(122, 24, 11, 0.693);
-  --primary-color-darker: rgb(38, 10, 3);
+  --primary-color: rgba(255, 0, 0, 0.835);
+  --primary-color-darker: rgba(96, 1, 1, 0.886);
 }
 
 * {
@@ -66,7 +66,7 @@ form input:focus {
 form button {
   border: none;
   background: var(--primary-color);
-  color: rgba(255, 255, 255);
+  color: rgb(192, 192, 192);
   font-size: 18px;
   font-weight: 700;
   height: 50px;
@@ -78,6 +78,17 @@ button {
   background-color: var(--primary-color-darker);
   color: rgba(255, 255, 255);
   border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: rgba(210, 210, 0, 0.709);
+  color: red;
+  font-weight: bolder;
+  transition: 1s;
+  cursor: pointer;
 }
 
 form button:hover {
