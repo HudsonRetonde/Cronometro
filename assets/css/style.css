@@ -16,6 +16,8 @@ body {
   font-size: 1.3em;
   line-height: 1.5em; 
   background: url('../../flash.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 ._container {
